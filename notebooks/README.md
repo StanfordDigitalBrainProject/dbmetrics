@@ -4,7 +4,7 @@
 | --- | --- |
 | [website-metrics.ipynb](website-metrics.ipynb) | Existing website metrics, step by step on one video. |
 | [exploratory-metrics.ipynb](exploratory-metrics.ipynb) | Similarity, transitions, event changes, affect and interest before integration. |
-| [api-walkthrough.ipynb](api-walkthrough.ipynb) | Sign in, inspect metrics, create assignments, download stimuli and track trials. |
+| [api-walkthrough.ipynb](api-walkthrough.ipynb) | Legacy 0.5-era `dbp_api` walkthrough; for the current API see [dbstim 1.0](https://github.com/StanfordDigitalBrainProject/dbstim) (release v1.0.0) and its own notebook. Sign in, inspect metrics, create assignments, download stimuli and track trials. |
 
 ## Run
 

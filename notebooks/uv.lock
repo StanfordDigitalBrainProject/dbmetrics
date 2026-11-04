@@ -432,7 +432,7 @@ provides-extras = ["technical", "youtube", "notebooks"]
 [[package]]
 name = "dbp-api"
 version = "0.2.0"
-source = { git = "https://github.com/lobennett/dbp-api.git?rev=d11933ff63553d314cff3bbebea0e0ae277c70c1#d11933ff63553d314cff3bbebea0e0ae277c70c1" }
+source = { git = "https://github.com/StanfordDigitalBrainProject/dbstim.git?rev=d11933ff63553d314cff3bbebea0e0ae277c70c1#d11933ff63553d314cff3bbebea0e0ae277c70c1" }
 
 [[package]]
 name = "dbp-metric-computation-walkthrough"
@@ -462,7 +462,7 @@ vjepa = [
 [package.metadata]
 requires-dist = [
     { name = "dbmetrics", editable = "../" },
-    { name = "dbp-api", git = "https://github.com/lobennett/dbp-api.git?rev=d11933ff63553d314cff3bbebea0e0ae277c70c1" },
+    { name = "dbp-api", git = "https://github.com/StanfordDigitalBrainProject/dbstim.git?rev=d11933ff63553d314cff3bbebea0e0ae277c70c1" },
     { name = "ipykernel", specifier = ">=6.29" },
     { name = "ipywidgets", specifier = ">=8.1" },
     { name = "jupyterlab", specifier = ">=4.2" },
