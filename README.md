@@ -25,7 +25,7 @@ do not interpret decode failures as measurements. Verify a canary on your worker
 
 - `notebooks/website-metrics.ipynb`: existing computations.
 - `notebooks/exploratory-metrics.ipynb`: candidate methods, not production metrics.
-- `notebooks/api-walkthrough.ipynb`: website access and experiment workflow.
+- `notebooks/api-walkthrough.ipynb`: website access and experiment workflow (legacy `dbp_api` 0.2.0 client; for the current API see [dbstim 1.0](https://github.com/StanfordDigitalBrainProject/dbstim) and its own notebook).
 
 ```sh
 cd notebooks
