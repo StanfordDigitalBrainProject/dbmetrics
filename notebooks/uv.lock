@@ -430,17 +430,12 @@ requires-dist = [
 provides-extras = ["technical", "youtube", "notebooks"]
 
 [[package]]
-name = "dbp-api"
-version = "0.2.0"
-source = { git = "https://github.com/StanfordDigitalBrainProject/dbstim.git?rev=d11933ff63553d314cff3bbebea0e0ae277c70c1#d11933ff63553d314cff3bbebea0e0ae277c70c1" }
-
-[[package]]
 name = "dbp-metric-computation-walkthrough"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "dbmetrics" },
-    { name = "dbp-api" },
+    { name = "dbstim" },
     { name = "ipykernel" },
     { name = "ipywidgets" },
     { name = "jupyterlab" },
@@ -462,7 +457,7 @@ vjepa = [
 [package.metadata]
 requires-dist = [
     { name = "dbmetrics", editable = "../" },
-    { name = "dbp-api", git = "https://github.com/StanfordDigitalBrainProject/dbstim.git?rev=d11933ff63553d314cff3bbebea0e0ae277c70c1" },
+    { name = "dbstim", git = "https://github.com/StanfordDigitalBrainProject/dbstim.git?rev=6975402207d685d903b77470a3f7fca103fe0e00" },
     { name = "ipykernel", specifier = ">=6.29" },
     { name = "ipywidgets", specifier = ">=8.1" },
     { name = "jupyterlab", specifier = ">=4.2" },
@@ -479,6 +474,11 @@ vjepa = [
     { name = "torchvision", specifier = ">=0.29.1" },
     { name = "transformers", specifier = "==4.57.5" },
 ]
+
+[[package]]
+name = "dbstim"
+version = "1.0.0"
+source = { git = "https://github.com/StanfordDigitalBrainProject/dbstim.git?rev=6975402207d685d903b77470a3f7fca103fe0e00#6975402207d685d903b77470a3f7fca103fe0e00" }
 
 [[package]]
 name = "debugpy"

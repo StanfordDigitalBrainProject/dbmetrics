@@ -4,7 +4,7 @@
 | --- | --- |
 | [website-metrics.ipynb](website-metrics.ipynb) | Existing website metrics, step by step on one video. |
 | [exploratory-metrics.ipynb](exploratory-metrics.ipynb) | Similarity, transitions, event changes, affect and interest before integration. |
-| [api-walkthrough.ipynb](api-walkthrough.ipynb) | Legacy walkthrough for the `dbp_api` 0.2.0 client, from before the package was renamed to `dbstim` in v0.3.0; for the current API see [dbstim 1.0](https://github.com/StanfordDigitalBrainProject/dbstim) (release v1.0.0) and its own notebook. Sign in, inspect metrics, create assignments, download stimuli and track trials. |
+| [api-walkthrough.ipynb](api-walkthrough.ipynb) | Sign in, inspect metrics, create an experiment, download a BIDS stimuli folder, and record and sync a run with [dbstim 1.0](https://github.com/StanfordDigitalBrainProject/dbstim) (v1.0.0). |
 
 ## Run
 
@@ -16,7 +16,7 @@ uv sync
 uv run jupyter lab
 ```
 
-In VS Code, select `notebooks/.venv/bin/python`. Run cells individually: API creation and trial tracking change account data; previews do not. A running website and your account are required for the API notebook.
+In VS Code, select `notebooks/.venv/bin/python`. Run cells individually: creating, scheduling, checkout and sync change account data; previews do not. The API notebook needs a dbstimuli.com account; set `DBSTIM_URL` to use a local test server instead.
 
 The website notebook uses bundled `data/nsd_subj01.mp4`; text labels are demonstrations, not inference. The exploratory notebook uses a local gardening clip if available; otherwise supply your own video. Helpers live in `src/dbmetrics/experimental/`. Keep generated data and private reviews out of Git.
 

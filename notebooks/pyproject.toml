@@ -12,7 +12,7 @@ dependencies = [
     "numpy>=2,<3",
     "opencv-python-headless>=4.10,<5",
     "dbmetrics",
-    "dbp-api @ git+https://github.com/StanfordDigitalBrainProject/dbstim.git@d11933ff63553d314cff3bbebea0e0ae277c70c1",
+    "dbstim @ git+https://github.com/StanfordDigitalBrainProject/dbstim.git@6975402207d685d903b77470a3f7fca103fe0e00",
 ]
 
 [tool.uv]
