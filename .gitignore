@@ -5,6 +5,8 @@ __pycache__/
 dist/
 .dbp/
 dbp-demo-download/
+api_walkthrough_bids/
+api_walkthrough_sub01_ses01/
 notebooks/data/half-similarity-demo.mp4
 .lavish/
 notebooks/notebook-results/

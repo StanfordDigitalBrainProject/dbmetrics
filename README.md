@@ -25,7 +25,7 @@ do not interpret decode failures as measurements. Verify a canary on your worker
 
 - `notebooks/website-metrics.ipynb`: existing computations.
 - `notebooks/exploratory-metrics.ipynb`: candidate methods, not production metrics.
-- `notebooks/api-walkthrough.ipynb`: website access and experiment workflow.
+- `notebooks/api-walkthrough.ipynb`: website access and experiment workflow with [dbstim 1.0](https://github.com/StanfordDigitalBrainProject/dbstim) (v1.0.0).
 
 ```sh
 cd notebooks
@@ -33,7 +33,7 @@ uv sync
 uv run jupyter lab
 ```
 
-The metric walkthrough includes a demo MP4; the API walkthrough connects to a running DBP website.
+The metric walkthrough includes a demo MP4; the API walkthrough signs in to dbstimuli.com (or `DBSTIM_URL`).
 See `VALIDATION.md` for evaluation requirements.
 
 ## Text and logos
